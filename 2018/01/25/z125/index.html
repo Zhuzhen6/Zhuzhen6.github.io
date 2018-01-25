@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="iOS,UITextField,cell," />
+  <meta name="keywords" content="iOS,时间戳," />
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以static NSString">
-<meta name="keywords" content="iOS,UITextField,cell">
+<meta name="description" content="时间戳转时间- (NSString *)getTimeStrWithString:(NSString *)str{  NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];// 创建一个时间格式化对象 [dateFormatter setDateFormat:@&amp;quot;yyyyMMdd HH:mm&amp;quot;]; //设">
+<meta name="keywords" content="iOS,时间戳">
 <meta property="og:type" content="article">
-<meta property="og:title" content="iOS 实时监听UITableViewCell中的UItextField的值的变化">
-<meta property="og:url" content="http://yoursite.com/2018/01/16/textFied/index.html">
+<meta property="og:title" content="iOS 时间戳转换">
+<meta property="og:url" content="http://yoursite.com/2018/01/25/z125/index.html">
 <meta property="og:site_name" content="小美">
-<meta property="og:description" content="为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以static NSString">
+<meta property="og:description" content="时间戳转时间- (NSString *)getTimeStrWithString:(NSString *)str{  NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];// 创建一个时间格式化对象 [dateFormatter setDateFormat:@&amp;quot;yyyyMMdd HH:mm&amp;quot;]; //设">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-16T01:14:17.266Z">
+<meta property="og:updated_time" content="2018-01-25T10:04:29.424Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="iOS 实时监听UITableViewCell中的UItextField的值的变化">
-<meta name="twitter:description" content="为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以static NSString">
+<meta name="twitter:title" content="iOS 时间戳转换">
+<meta name="twitter:description" content="时间戳转时间- (NSString *)getTimeStrWithString:(NSString *)str{  NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];// 创建一个时间格式化对象 [dateFormatter setDateFormat:@&amp;quot;yyyyMMdd HH:mm&amp;quot;]; //设">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/01/16/textFied/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/01/25/z125/"/>
 
 
 
 
 
-  <title>iOS 实时监听UITableViewCell中的UItextField的值的变化 | 小美</title>
+  <title>iOS 时间戳转换 | 小美</title>
   
 
 
@@ -264,7 +264,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/16/textFied/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/25/z125/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="朱圳">
@@ -281,7 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">iOS 实时监听UITableViewCell中的UItextField的值的变化</h1>
+          <h1 class="post-title" itemprop="name headline">iOS 时间戳转换</h1>
         
 
         <div class="post-meta">
@@ -293,8 +293,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-16T08:52:23+08:00">
-                2018-01-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-25T17:45:55+08:00">
+                2018-01-25
               </time>
             
 
@@ -353,89 +353,22 @@
       
 
       
-        <h2 id="为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以"><a href="#为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以" class="headerlink" title="为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以"></a>为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以</h2><pre><code>static NSString *CellIdentifier = @&quot;stuUserCell&quot;;
-StuUserCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-if (cell == nil) {
-cell = [[StuUserCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-}
-cell.selectionStyle = UITableViewCellSelectionStyleNone;
-cell.nameLabel.text = self.list[indexPath.row][@&quot;name&quot;];
-cell.tximg.image = [UIImage imageNamed:self.list[indexPath.row][@&quot;img&quot;]];
-cell.dataText.tag = indexPath.row;
-[cell.dataText addTarget:self action:@selector(changedTextField:) forControlEvents:UIControlEventEditingChanged];
+        <h2 id="时间戳转时间"><a href="#时间戳转时间" class="headerlink" title="时间戳转时间"></a>时间戳转时间</h2><pre><code>- (NSString *)getTimeStrWithString:(NSString *)str{
 
-if (indexPath.row == 0) {
-cell.dataText.text = self.model.name;
+NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];// 创建一个时间格式化对象
+[dateFormatter setDateFormat:@&quot;yyyyMMdd HH:mm&quot;]; //设定时间的格式
+NSDate *tempDate = [dateFormatter dateFromString:str];//将字符串转换为时间对象
+NSString *timeStr = [NSString stringWithFormat:@&quot;%ld&quot;, (long)[tempDate timeIntervalSince1970]];//字符串转成时间戳
+return timeStr;
 }
-if (indexPath.row == 1) {
-if ([self.model.sex isEqualToString:@&quot;1&quot;]) {
-cell.dataText.text = @&quot;女&quot;;
-}else{
-cell.dataText.text = @&quot;男&quot;;
-}
-}
-if (indexPath.row == 2) {
-
-cell.dataText.text = self.model.college;
-}
-if (indexPath.row == 3) {
-cell.dataText.text = self.model.jieshu;
-}
-if (indexPath.row == 4) {
-cell.dataText.text = self.model.goal;
-}
-if (indexPath.row == 5) {
-cell.dataText.text = self.model.QQ;
-}
-if (indexPath.row == 6) {
-cell.dataText.text = self.model.Winxin;
-}
-if (indexPath.row == 7) {
-cell.dataText.text = self.model.BirthDay;
-}
-if (indexPath.row == 8) {
-cell.dataText.text = self.model.dadphone;
-}
-if (indexPath.row == 9) {
-cell.dataText.text = self.model.mumphone;
-}
-if (indexPath.row == 10) {
-cell.dataText.text = self.model.Baiduyun;
-}
-if (indexPath.row == 11) {
-cell.dataText.text = self.model.Vyan;
-}
-return cell
-</code></pre><h2 id="在构建cell的时候，就对每一个cell中的UItextField控件设置tag，tag的值是cell的indexPath-row。这样你可以在后期的工作中得到对应的cell。通知给每一个UItextField增加一个UIControlEventEditingChanged事件，每当修改时，就触发changedTextField-这个函数。在这个函数中，我们就可以实时得到UItextField的值，并进行保存。"><a href="#在构建cell的时候，就对每一个cell中的UItextField控件设置tag，tag的值是cell的indexPath-row。这样你可以在后期的工作中得到对应的cell。通知给每一个UItextField增加一个UIControlEventEditingChanged事件，每当修改时，就触发changedTextField-这个函数。在这个函数中，我们就可以实时得到UItextField的值，并进行保存。" class="headerlink" title="在构建cell的时候，就对每一个cell中的UItextField控件设置tag，tag的值是cell的indexPath.row。这样你可以在后期的工作中得到对应的cell。通知给每一个UItextField增加一个UIControlEventEditingChanged事件，每当修改时，就触发changedTextField:这个函数。在这个函数中，我们就可以实时得到UItextField的值，并进行保存。"></a>在构建cell的时候，就对每一个cell中的UItextField控件设置tag，tag的值是cell的indexPath.row。这样你可以在后期的工作中得到对应的cell。通知给每一个UItextField增加一个UIControlEventEditingChanged事件，每当修改时，就触发changedTextField:这个函数。在这个函数中，我们就可以实时得到UItextField的值，并进行保存。</h2><pre><code>-(void)changedTextField:(id)sender
-{
-UITextField *tempTextField = (UITextField *)sender;
-NSLog(@&quot;tag------%ld;值是---%@&quot;,tempTextField.tag,tempTextField.text);
-
-if (tempTextField.tag == 0) {
-self.model.name = tempTextField.text;
-}else if (tempTextField.tag == 1){
-self.model.sex = tempTextField.text;
-}else if (tempTextField.tag == 2){
-self.model.college = tempTextField.text;
-}else if (tempTextField.tag == 3){
-self.model.jieshu = tempTextField.text;
-}else if (tempTextField.tag == 4){
-self.model.goal = tempTextField.text;
-}else if (tempTextField.tag == 5){
-self.model.QQ = tempTextField.text;
-}else if (tempTextField.tag == 6){
-self.model.Winxin = tempTextField.text;
-}else if (tempTextField.tag == 7){
-self.model.BirthDay = tempTextField.text;
-}else if (tempTextField.tag == 8){
-self.model.dadphone = tempTextField.text;
-}else if (tempTextField.tag == 9){
-self.model.mumphone = tempTextField.text;
-}else if (tempTextField.tag == 10){
-self.model.Baiduyun = tempTextField.text;
-}else if (tempTextField.tag == 11){
-self.model.Vyan = tempTextField.text;
-}
+</code></pre><h2 id="时间戳转时间-时间戳为13位是精确到毫秒的，10位精确到秒"><a href="#时间戳转时间-时间戳为13位是精确到毫秒的，10位精确到秒" class="headerlink" title="时间戳转时间,时间戳为13位是精确到毫秒的，10位精确到秒"></a>时间戳转时间,时间戳为13位是精确到毫秒的，10位精确到秒</h2><pre><code>- (NSString *)getDateStringWithTimeStr:(NSString *)str{
+NSTimeInterval time=[str doubleValue];//传入的时间戳str如果是精确到毫秒的记得要/1000
+NSDate *detailDate=[NSDate dateWithTimeIntervalSince1970:time];
+NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init]; //实例化一个NSDateFormatter对象
+//设定时间格式,这里可以设置成自己需要的格式
+[dateFormatter setDateFormat:@&quot;yyyy-MM-dd HH:mm&quot;];
+NSString *currentDateStr = [dateFormatter stringFromDate: detailDate];
+return currentDateStr;
 }
 </code></pre>
       
@@ -456,9 +389,7 @@ self.model.Vyan = tempTextField.text;
           
             <a href="/tags/iOS/" rel="tag"><i class="fa fa-tag"></i> iOS</a>
           
-            <a href="/tags/UITextField/" rel="tag"><i class="fa fa-tag"></i> UITextField</a>
-          
-            <a href="/tags/cell/" rel="tag"><i class="fa fa-tag"></i> cell</a>
+            <a href="/tags/时间戳/" rel="tag"><i class="fa fa-tag"></i> 时间戳</a>
           
         </div>
       
@@ -471,8 +402,8 @@ self.model.Vyan = tempTextField.text;
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/01/11/FirstBlog/" rel="next" title="footerView上的button点击没有响应">
-                <i class="fa fa-chevron-left"></i> footerView上的button点击没有响应
+              <a href="/2018/01/16/textFied/" rel="next" title="iOS 实时监听UITableViewCell中的UItextField的值的变化">
+                <i class="fa fa-chevron-left"></i> iOS 实时监听UITableViewCell中的UItextField的值的变化
               </a>
             
           </div>
@@ -480,10 +411,6 @@ self.model.Vyan = tempTextField.text;
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/01/25/z125/" rel="prev" title="iOS 时间戳转换">
-                iOS 时间戳转换 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -619,7 +546,7 @@ self.model.Vyan = tempTextField.text;
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以"><span class="nav-number">1.</span> <span class="nav-text">为了能够实时的监听textField的输入的改变，首先给UItextField添加一个编辑事件，每次这个事件触发一个函数，在相应的函数中得到UItextField的值。当然你也可以在这个函数中做你想要的处理，比如将UItextField的值以通知的形式发送给相关的控制器，以便做下一步处理。而在本项目中，只需要实时的记录每一个cell中的UItextField的值就可以</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在构建cell的时候，就对每一个cell中的UItextField控件设置tag，tag的值是cell的indexPath-row。这样你可以在后期的工作中得到对应的cell。通知给每一个UItextField增加一个UIControlEventEditingChanged事件，每当修改时，就触发changedTextField-这个函数。在这个函数中，我们就可以实时得到UItextField的值，并进行保存。"><span class="nav-number">2.</span> <span class="nav-text">在构建cell的时候，就对每一个cell中的UItextField控件设置tag，tag的值是cell的indexPath.row。这样你可以在后期的工作中得到对应的cell。通知给每一个UItextField增加一个UIControlEventEditingChanged事件，每当修改时，就触发changedTextField:这个函数。在这个函数中，我们就可以实时得到UItextField的值，并进行保存。</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#时间戳转时间"><span class="nav-number">1.</span> <span class="nav-text">时间戳转时间</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#时间戳转时间-时间戳为13位是精确到毫秒的，10位精确到秒"><span class="nav-number">2.</span> <span class="nav-text">时间戳转时间,时间戳为13位是精确到毫秒的，10位精确到秒</span></a></li></ol></div>
             
 
           </div>
